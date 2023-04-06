@@ -1,0 +1,51 @@
+.ourCoffee {
+    &__group {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 80px;
+        padding-bottom: 60px;
+    }
+
+    &__search {
+        display: flex;
+        align-items: center;
+    }
+
+    &__input {
+        padding: 6px 36px;
+        background: #FFFFFF;
+        box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+        border-radius: 4px;
+        text-align: center;
+        border: none;
+    }
+
+    &__filter {
+        display: flex;
+        align-items: center;
+    }
+
+    &__text {
+        margin-right: 20px;
+    }
+
+    &__label {
+        margin-right: 35px;
+    }
+
+    &__btn:not(:last-of-type) {
+        margin-right: 5px;
+    }
+}
+
+.btn-white {
+    background-color: #fff;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.btn-black {
+    background-color: #000;
+    color: #fff;
+    box-shadow: 4px 4px 20px rgb(77 41 27 / 73%);
+}

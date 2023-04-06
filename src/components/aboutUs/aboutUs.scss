@@ -1,0 +1,19 @@
+.about {
+    padding: 80px 0 100px 0;
+    text-align: center;
+    &__title{
+        font-size: 30px;
+    }
+    &__content {
+        text-align: center;
+        padding-top: 40px;
+        max-width: 590px;
+        margin: 0 auto;
+        p {
+            line-height: 20px;
+        }
+    }
+    &__descr:not(:last-of-type) {
+        padding-bottom: 20px;
+    }
+}

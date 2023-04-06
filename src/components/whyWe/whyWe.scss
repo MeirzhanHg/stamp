@@ -1,0 +1,39 @@
+.why-us {
+    padding: 0 0 50px 0;
+}
+
+.section-title {
+    margin-bottom: 45px;
+    h2 {
+        font-size: 14px;
+        font-weight: 500;
+        padding: 0;
+        line-height: 1px;
+        margin: 0 0 5px 0;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #aaaaaa;
+    }
+    >p {
+        font-size: 32px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #000;
+    }
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item-elem {
+    flex: 0 0 auto;
+    width: 33.3333333333%;
+    text-align: center;
+    padding: 0 10px;
+    p{
+        line-height: 1.6;
+        margin: 30px auto;
+    }
+}

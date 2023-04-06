@@ -1,0 +1,24 @@
+.menu {
+    display: flex;
+    align-items: flex-end;
+    color: #fff; 
+    &__list{
+        display: flex;     
+    }
+    &__item {
+        font-size: 16px;
+      
+    }
+    &__item:not(:last-of-type) { 
+        padding-right: 40px;
+    }
+    &__link {
+        transition: all .3s;
+        &:hover {
+            text-decoration: underline;
+        }
+        &.active__item {
+            color:#ebb00f;
+        }
+    }    
+}

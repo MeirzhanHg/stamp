@@ -1,0 +1,51 @@
+.beans {
+    padding-top: 20px;
+    text-align: center;
+    &__body {
+        position: relative;
+        z-index: 1;
+        
+        &::before {
+            content: "";
+            position: absolute;
+            display: block;
+            z-index: 5;
+            right: 50%;        
+            top: 50%;
+            margin-right: 40px;
+            width: 60px;
+            height: 2px;
+            background-color: #000;
+        }
+        
+        &::after {
+            content: "";
+            position: absolute;
+            display: block;
+            z-index: 5;
+            left: 50%;        
+            top: 50%;
+            margin-left: 40px;
+            width: 60px;
+            height: 2px;
+            background-color: #000;
+        }
+    }
+
+    &__white {
+        &::before {
+            background-color: #fff;
+        }
+
+        svg {
+            path {
+                fill: #fff;
+            }
+        }
+        
+        &::after {
+            background-color: #fff;
+        } 
+    }
+    
+}

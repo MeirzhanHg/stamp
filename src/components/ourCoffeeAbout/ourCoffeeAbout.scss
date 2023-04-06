@@ -1,0 +1,33 @@
+.ourCoffee__about {
+    padding-top: 50px;
+
+    &__wrapper {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        column-gap: 80px;
+    }
+
+    &__text {
+        text-align: center;
+    }
+
+    &__desc {
+        margin-top: 26px;
+    }
+    &__img {
+       
+        img {
+            width: 280px;
+            height: 358px;
+            object-fit: cover;
+        }
+    }
+}
+
+.divider {
+    display: block;
+    width: 280px;
+    border: 1px solid #000;
+    margin: 60px auto;
+}

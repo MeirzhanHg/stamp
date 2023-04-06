@@ -1,0 +1,76 @@
+.goodsInfo {
+
+    &__about {
+        padding: 70px 0 30px 0;
+    }
+    &__wrapper {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        // column-gap: 40px;
+    }
+
+    &__img {
+        img {
+            width: 500px;
+            height: 500px;
+            object-fit: cover;
+        }
+    }
+
+    &__text {
+        margin-left: 40px;
+    }
+
+    &__title {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    &__country {
+        margin-bottom: 16px;
+    }
+
+    &__desc {
+        margin-bottom: 16px;
+    }
+
+    .fw {
+        font-weight: 700;
+    }
+
+    &__price {
+    }
+}
+
+.info {
+    &__item {
+        margin-bottom: 10px;
+        &.none {
+            display: none;
+        }
+    }
+}
+
+.diameter {
+    margin-bottom: 10px;
+}
+
+.info__list {
+    padding:0;
+    list-style: none;
+}
+.info__list li{
+    padding:6px;
+}
+.info__list li:before {
+    padding-right:10px;
+    font-weight: bold;
+    color: #C0C0C0;
+    content: "\2714";
+    transition-duration: 0.5s;
+}
+.info__list li:hover:before {
+    color: #337AB7;
+    content: "\2714";
+}   

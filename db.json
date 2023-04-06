@@ -1,0 +1,110 @@
+{
+    "goods": [
+        { 
+            "id": 1, 
+            "img_1": "https://centeraktiv.kz/images/menu-main/page/pechat-shtamp/pechat-kruglaia/trodat/trodat-4940-temno-zelenyj.jpg", 
+            "img_2": "https://centeraktiv.kz/images/menu-main/page/pechat-shtamp/pechat-kruglaia/trodat/trodat-4940-temno-zelenyj.jpg", 
+            "diameter": "40mm 1.57",
+            "title": "Автоматическая печать (оснастка для печати - Trodat 4924)", 
+            "too": "Печать для ТОО (основная печать)",
+            "ip": "Печать для ИП",
+            "gu": "Печать для ГУ",
+            "document": "Печать для документов",
+            "references": "Печать для справок",
+            "price": "6950тг",
+            "name": "print"
+        },
+        { 
+            "id": 2, 
+            "img_1": "https://salexy.com.ua/images/img_ua/700/34113.jpg", 
+            "img_2": "https://salexy.com.ua/images/img_ua/700/34113.jpg", 
+            "diameter": "40mm 1.57",
+            "title": "Автоматическая печать (оснастка для печати - Colop R40)", 
+            "too": "Печать для ТОО (основная печать)",
+            "ip": "Печать для ИП",
+            "gu": "Печать для ГУ",
+            "document": "Печать для документов",
+            "references": "Печать для справок",
+            "price": "2500тг",
+            "name": "print"
+        },
+        { 
+            "id": 3, 
+            "img_1": "https://avatars.mds.yandex.net/get-mpic/5297750/img_id4282318636673090994.jpeg/600x800", 
+            "img_2": "https://avatars.mds.yandex.net/get-mpic/5297750/img_id4282318636673090994.jpeg/600x800", 
+            "diameter": "40mm 1.57",
+            "title": "Автоматическая карманная печать (оснастка Colop  для печати - Stamp Mouse R40)", 
+            "pocket": "Карманная печать",
+            "too": "Печать для ТОО (основная печать)",
+            "ip": "Печать для ИП",
+            "gu": "Печать для ГУ",
+            "document": "Печать для документов",
+            "references": "Печать для справок",
+            "price": "7900тг",
+            "name": "pocket"
+        },
+        { 
+            "id": 4, 
+            "img_1": "https://static.insales-cdn.com/images/products/1/5998/521140078/6103903018.jpg", 
+            "img_2": "https://static.insales-cdn.com/images/products/1/5998/521140078/6103903018.jpg", 
+            "diameter": "40mm",
+            "title": "Карманная печать (металлическая оснастка с золотым кольцом)",
+            "pocket": "Карманная печать", 
+            "too": "Печать для ТОО (основная печать)",
+            "ip": "Печать для ИП",
+            "gu": "Печать для ГУ",
+            "document": "Печать для документов",
+            "references": "Печать для справок",
+            "price": "3350тг",
+            "name": "pocket"
+        },
+        { 
+            "id": 5, 
+            "img_1": "https://i3.photo.2gis.com/images/branch/68/9570149225227133_97c4.jpg", 
+            "img_2": "https://i3.photo.2gis.com/images/branch/68/9570149225227133_97c4.jpg", 
+            "diameter": "40mm",
+            "title": "Карманная печать (металлическая оснастка со встроенной окрашенной штемпельной подушкой НЛО)", 
+            "too": "Печать для ТОО (основная печать)",
+            "ip": "Печать для ИП",
+            "gu": "Печать для ГУ",
+            "document": "Печать для документов",
+            "references": "Печать для справок",
+            "price": "8150тг",
+            "name": "pocket"
+        },
+        { 
+            "id": 6, 
+            "img_1": "https://nix-shuya.ru/upload/iblock/fd3/f23ofsez0blknt3pluyezb66tgufrtu1.jpg", 
+            "img_2": "https://nix-shuya.ru/upload/iblock/fd3/f23ofsez0blknt3pluyezb66tgufrtu1.jpg", 
+            "diameter": "27mm x 10mm 1.06 x 0.39",
+            "title": "Штамп автоматический (Оснастка Colop Printer 10)", 
+
+            "price": "6950тг",
+            "paid": "Штамп ОПЛАЧЕНО",
+            "received": "Штамп ПОЛУЧЕНО",
+            "released": "Штамп ОТПУЩЕНО",
+            "checked": "Штамп ПРОВЕРЕНО",
+            "name": "stamp"
+        }
+    ],
+    "buttonsFilters": [
+        {
+            "id": 1, 
+            "price": "2000",
+            "name": "stamp",
+            "text": "Штамп"
+        },
+        {
+            "id": 2, 
+            "price": "3000",
+            "name": "pocket",
+            "text": "Карманная"
+        },
+        {
+            "id": 3, 
+            "price": "5000",
+            "name": "print",
+            "text": "Печать"
+        }
+    ]
+}
