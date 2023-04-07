@@ -1,11 +1,11 @@
-import BeansLogo from "../beansLogo/BeansLogo"
+import PrintLogo from "../PrintLogo/PrintLogo"
 import './aboutUs.scss'
 
 const AboutUs = () => {
     return (
         <div className="about container">
             <h2 className="about__title title">О нас</h2>
-            <BeansLogo/>
+            <PrintLogo/>
             <div className="about__content">
                 <p className="about__descr">
                     Типография АLEM PRINT — это типография полного цикла, включающая в себя допечатное, печатное, послепечатное оборудование и упаковку готовой продукции. Таким образом, весь цикл по изготовлению продукции происходит в одном месте, тем самым обеспечивая оптимальное соотношение цена/качество/сроки.

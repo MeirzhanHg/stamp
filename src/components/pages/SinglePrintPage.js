@@ -1,15 +1,11 @@
 import { useEffect, useState } from 'react';
 import {useHttp} from '../../hooks/http.hook';
-
 import { useParams } from 'react-router-dom';
-import { useSelector } from 'react-redux';
+import PrintLogo from '../PrintLogo/PrintLogo';
 
-import BeansLogo from '../beansLogo/BeansLogo';
-import GoodsItemImg from '../../resources/img/goods-info.jpg'
+import './singlePrintPage.scss';
 
-import './singleCoffeePage.scss';
-
-const SingleCoffeePage = () => {
+const SinglePrintPage = () => {
     const { coffeeId } = useParams()
     const [data, setData] = useState([])
 
@@ -39,7 +35,7 @@ const SingleCoffeePage = () => {
                     <div className="goodsInfo__text">
                         <div className="goodsInfo__title">
                             <h2>О товаре</h2>
-                            <BeansLogo />
+                            <PrintLogo />
                         </div>
                         <div className="goodsInfo__desc">
                             <p>
@@ -74,4 +70,4 @@ const SingleCoffeePage = () => {
     )
 }
 
-export default SingleCoffeePage;
+export default SinglePrintPage;

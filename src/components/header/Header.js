@@ -1,11 +1,9 @@
 import AppHeader from '../appHeader/AppHeader';
-
-import beansWhite from '../../resources/img/coffee-beans-white.svg';
 import ourCoffeImg from '../../resources/img/offset-printing.jpg';
 
-import './ourCoffeeHeader.scss'
+import './header.scss'
 
-const OurCoffeeHeader = ({pleasureImg, title}) => {
+const Header = ({pleasureImg, title}) => {
     let img = null
     if(pleasureImg) {
         img = pleasureImg
@@ -17,7 +15,7 @@ const OurCoffeeHeader = ({pleasureImg, title}) => {
             <div className='ourcoffee__img'><img src={img} alt="coffeeBg" /></div>
             <div className="ourcoffee__body">
                 <div className="indent">
-                    <AppHeader beansWhite={beansWhite}/>
+                    <AppHeader />
                 </div> 
                 <h2 className="ourcoffee__title title_40">{title ? 'Что мы производим?': 'Наши продукты'}</h2>
             </div>
@@ -25,4 +23,4 @@ const OurCoffeeHeader = ({pleasureImg, title}) => {
     )
 }
 
-export default OurCoffeeHeader;     
+export default Header;     

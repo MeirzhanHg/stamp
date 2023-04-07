@@ -1,5 +1,5 @@
 import AppHeader from '../appHeader/AppHeader';
-import BeansLogo from '../beansLogo/BeansLogo';
+import PrintLogo from '../PrintLogo/PrintLogo';
 import './appFooter.scss'
 
 const AppFooter = () => {
@@ -8,7 +8,7 @@ const AppFooter = () => {
             <div className="footer__content">
                 <div className="container">
                     <AppHeader color={{color: 'black', justifyContent: 'center'}}/>
-                    <BeansLogo/>
+                    <PrintLogo/>
                 </div>
             </div>
         </footer>

@@ -1,18 +1,17 @@
 import { useState, useEffect } from 'react';
-
 import { useSelector, useDispatch } from 'react-redux';
 
 import { fetchFilters, selectAll, filtersChanged, filtersSearch } from './filter.slice';
 
-import './ourCoffeeFilter.scss'
+import './filtersGoods.scss'
 
-const OurCoffeeFilter = () => {
+const FiltersGoods = () => {
 
     const [text, setText] = useState('')
     
     const dispatch = useDispatch()    
     const filters = useSelector(selectAll)
-    const {filterActive, term, filtersLoadingStatus} = useSelector(state => state.filters);
+    const {filterActive} = useSelector(state => state.filters);
 
     useEffect(() => {
         dispatch(fetchFilters())
@@ -67,4 +66,4 @@ const OurCoffeeFilter = () => {
      
 }
 
-export default OurCoffeeFilter;
+export default FiltersGoods;

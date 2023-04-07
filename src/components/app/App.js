@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import { MainPage, OurCoffeePage, CoffeePleasurePage } from '../pages'
+import { MainPage, OurProductsPage, ProductionsPage } from '../pages'
 
 import AppFooter from "../appFooter/AppFooter";
 
@@ -14,9 +14,9 @@ const App = () => {
                 <Routes>
                     <Route path='/' element={<MainPage />} />
 
-                    <Route path='/goods/*' element={<OurCoffeePage />} />
+                    <Route path='/goods/*' element={<OurProductsPage />} />
 
-                    <Route path='/about' element={<CoffeePleasurePage />} />
+                    <Route path='/about' element={<ProductionsPage />} />
                 </Routes>
 
             </div>

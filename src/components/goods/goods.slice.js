@@ -1,8 +1,6 @@
-import coffeeGoods from '../../resources/img/aromistico-coffee.jpg'
 
 import { createSlice, createAsyncThunk, createEntityAdapter, createSelector } from "@reduxjs/toolkit";
 import {useHttp} from '../../hooks/http.hook';
-import { renderIntoDocument } from 'react-dom/test-utils';
 
 const goodsAdapter = createEntityAdapter()
 

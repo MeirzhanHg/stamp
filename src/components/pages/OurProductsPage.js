@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
-import OurCoffee from '../ourCoffee/OurCoffee'
-import OurCoffeeHeader from "../ourCoffeeHeader/OurCoffeeHeader";
-import SingleCoffeePage from "./SingleCoffeePage";
+import OurProducts from "../ourProducts/OurProducts";
+import OurCoffeeHeader from "../header/Header";
+import SinglePrintPage from "./SinglePrintPage";
 
 const OurCoffeePage = () => {
     return (
@@ -12,12 +12,12 @@ const OurCoffeePage = () => {
 
                 <Route
                     path={':coffeeId'}
-                    element={<SingleCoffeePage />}
+                    element={<SinglePrintPage />}
                 />
 
                 <Route
                     path="/"
-                    element={<OurCoffee />}
+                    element={<OurProducts />}
                 />
 
             </Routes>

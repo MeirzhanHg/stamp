@@ -1,18 +1,16 @@
 import AppHeader from '../appHeader/AppHeader';
-import BeansLogo from '../beansLogo/BeansLogo';
+import PrintLogo from '../PrintLogo/PrintLogo';
 
-import beansWhite from '../../resources/img/coffee-beans-white.svg'
+import './aboutCompany.scss'
 
-import './beansCoffee.scss'
-
-const BeansCoffee = () => {
+const AboutCompany = () => {
     return (
         <>
-            <div className="indent"><AppHeader beansWhite={beansWhite}/></div>
+            <div className="indent"><AppHeader /></div>
             <div className="content">
                 <div className="container">
                     <h1 className="content__title">Изготовление печатей и штампов за 30 минут</h1>
-                    <BeansLogo color='beans__white'/>
+                    <PrintLogo color='beans__white'/>
                     <div className="content__text">
                         <div className="content__suptitle">Офсетная печать</div>
                         <div className="content__subtitle">Печать любых тиражей высокого качество. Упаковка, книжно-журнальная и различная рекламная продукция.</div>
@@ -25,4 +23,4 @@ const BeansCoffee = () => {
     )
 }
 
-export default BeansCoffee;
+export default AboutCompany;

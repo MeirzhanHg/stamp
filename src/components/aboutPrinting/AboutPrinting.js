@@ -1,9 +1,9 @@
 import aboutImg from "../../resources/img/1.jpeg";
-import BeansLogo from "../beansLogo/BeansLogo";
+import PrintLogo from "../PrintLogo/PrintLogo";
 
-import "./ourCoffeeAbout.scss";
+import "./AboutPrinting.scss";
 
-const OurCoffeeAbout = ({ coffeePleasure, descr, title }) => {
+const AboutPrinting = ({ coffeePleasure, descr, title }) => {
     let img = null
 
     if (coffeePleasure) {
@@ -25,7 +25,7 @@ const OurCoffeeAbout = ({ coffeePleasure, descr, title }) => {
                         {title ? title : 'О Типографии'}
                     </h2>
 
-                    <BeansLogo />
+                    <PrintLogo />
                     <div className="ourCoffee__about__desc">
                         <p>
                             {
@@ -42,4 +42,4 @@ const OurCoffeeAbout = ({ coffeePleasure, descr, title }) => {
     );
 };
 
-export default OurCoffeeAbout;
+export default AboutPrinting;

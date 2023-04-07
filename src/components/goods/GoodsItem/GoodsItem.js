@@ -1,6 +1,4 @@
-
-export const OurCoffeeGoodsItems = ({ img_1, title, price}) => {
-    
+export const GoodsItem = ({ img_1, title, price}) => {
     return (
         <>
             <div className="item-top__wrapper">

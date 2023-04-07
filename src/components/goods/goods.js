@@ -2,12 +2,12 @@ import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import { Link } from 'react-router-dom';
 import { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { OurCoffeeGoodsItems } from './ourCoffeeGoodsItem/OurCoffeeGoodsItem';
-import { fetchGoods, selectAll, filteredGoodsSelector } from "./ourCoffeeGoodsSlice";
+import { GoodsItem } from './GoodsItem/GoodsItem';
+import { fetchGoods, filteredGoodsSelector } from "./goods.slice";
 
-import './goodsItems.scss';
+import './goods.scss';
 
-const OurCoffeeGoods = ({ getCoffeeId }) => {
+const Goods = ({ getCoffeeId }) => {
 
     useEffect(() => {
         dispatch(fetchGoods())
@@ -41,7 +41,7 @@ const OurCoffeeGoods = ({ getCoffeeId }) => {
                     to={`/goods/${id}`}
                     className="list_column">
                         <div className="goods-list__item item">
-                            <OurCoffeeGoodsItems {...item} />
+                            <GoodsItem {...item} />
                         </div>
                 </Link>
             </CSSTransition>
@@ -59,4 +59,4 @@ const OurCoffeeGoods = ({ getCoffeeId }) => {
     )
 }
 
-export default OurCoffeeGoods;
+export default Goods;

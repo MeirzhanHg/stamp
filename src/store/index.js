@@ -1,5 +1,5 @@
 import { configureStore } from "@reduxjs/toolkit";
-import goods from '../components/ourCoffeeGoods/ourCoffeeGoodsSlice';
+import goods from '../components/goods/goods.slice';
 import filters from '../components/ourCoffeeFilter/filter.slice';
 
 // хранилище

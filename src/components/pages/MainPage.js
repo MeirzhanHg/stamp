@@ -1,17 +1,15 @@
-import BeansCoffee from "../beansCoffee/BeansCoffee";
+import AboutCompany from "../company/AboutCompany";
 import AboutUs from "../aboutUs/AboutUs";
-import OurBest from "../ourBest/OurBest";
 import WhyWe from "../whyWe/WhyWe";
 
 const MainPage = () => {
     return (
         <>
             <main className="main">
-                <BeansCoffee />
+                <AboutCompany />
             </main>
             <AboutUs />
             <WhyWe/>
-            {/* <OurBest /> */}
         </>
     )
 }

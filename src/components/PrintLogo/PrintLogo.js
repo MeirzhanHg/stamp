@@ -1,9 +1,7 @@
-import './beansLogo.scss'
+import './printLogo.scss'
 
-const BeansLogo = (props) => {
-
+const PrintLogo = (props) => {
     const { color } = props;
-
     return (
         <div className="beans">
             <div className={`beans__body ${color ? color : ''}`}>
@@ -21,4 +19,4 @@ const BeansLogo = (props) => {
     )
 }
 
-export default BeansLogo;
+export default PrintLogo;

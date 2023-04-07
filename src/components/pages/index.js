@@ -1,6 +1,6 @@
 import MainPage from "./MainPage";
-import OurCoffeePage from "./OurCoffeePage";
-import SingleCoffeePage from './SingleCoffeePage'
-import CoffeePleasurePage from "./CoffeePleasurePage";
+import OurProductsPage from "./OurProductsPage";
+import SinglePrintPage from './SinglePrintPage'
+import ProductionsPage from "./ProductionsPage";
 
-export {MainPage, OurCoffeePage, SingleCoffeePage, CoffeePleasurePage};
+export {MainPage, OurProductsPage, SinglePrintPage, ProductionsPage};
